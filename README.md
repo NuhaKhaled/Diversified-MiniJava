@@ -3,7 +3,7 @@ Diversified-MiniJava
 
 A MiniJava to Diversified code (Ruby/Python/JS) Compiler. It was implemented for learning purpose in Compilers Course.
 
-The projectgoal is to build a simple compiler for a simplified programming language.The main aim is to be able to define language grammar, go through lexical analysis and parsing algorithm, and apply the concept of diversity on the output .
+The project goal is to build a simple compiler for a simplified programming language.The main aim is to be able to define language grammar, go through lexical analysis and parsing algorithm, and apply the concept of diversity on the output .
 
 MiniJava is a subset of Java and the meaning of a MiniJava program is given by its meaning as a Java program.
 
