@@ -77,3 +77,5 @@ Compiler Design and Implementation :
   Code Generation was done by a naive method : On the fly code generation. 
   
   Software process diversity has a great impact in many area. In our project, it is used in generating 3 different language from the MiniJava input. This would be useful in Software Reuse. Software reuse is the dominant approach nowadays for constructing many applications. The hardest step in Software Reuse is packaging and compiling more than one sources together and matching its to desired environment. By using the diversified outputs, It will be easier to match the reused code to the desired language code needed. The code go through the Abstract Syntax Tree to convert it to the matching Ruby, Python and JavaScript code.It’s Implementation is at ASTNode classes level.The user may choose only a specific language as an Output.
+  
+  It was developed by Noha Ali and Nuha Khaled.
