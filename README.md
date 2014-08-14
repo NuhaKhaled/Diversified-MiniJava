@@ -8,14 +8,22 @@ The project goal is to build a simple compiler for a simplified programming lang
 MiniJava is a subset of Java and the meaning of a MiniJava program is given by its meaning as a Java program.
 
 We went through 5 phases.
+
   ● Grammar analysis and Left recursion elimination.
+  
   ● Tokenization.
+  
   ● Recursive Descent Parsing Algorithm.
+  
   ● ASTNodes Creation and Dumping.
+  
   ● Conversion to diversified Output.
   
+  
 Programming Language Used for Development : Java
+
 OS : tested on Linux, Windows.
+
   
   
 MiniJava Grammar :
@@ -39,22 +47,37 @@ Compiler Design and Implementation :
   The Tokenizer uses FileReader and SteamTokenizer to read the file and split it. Then Switch cases are used on each token to create this Token and add it to the list.
   
   
-  Each token is defined as Token Object.Token Object got type. terminals’ type is
-  list of enum.
+  
+  Each token is defined as Token Object.Token Object got type. terminals’ type is list of enum.
+  
   public enum Type{
+  
   EOF(0),ID(1), // identifier [a-zA-Z_][a-zA-Z_0-9]*
+  
   INTLIT(2), // integer literal [0-9]+
+  
   LBRACE(3), // {
+  
   RBRACE(4), // }
+  
   LSQR(5), // [
+  
   RSQR(6), // ]
+  
   LPAREN(7), // (
+  
   RPAREN(8), // )
+  
   COMMA(9), // ,
+  
   .
+  
   .
+  
   .
+  
   }
+  
   
   While Token’s elements are :
   
