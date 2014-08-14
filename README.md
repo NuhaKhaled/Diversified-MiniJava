@@ -21,4 +21,4 @@ OS : tested on Linux, Windows.
 MiniJava Grammar :
 MiniJava is a subset of Java and the meaning of a MiniJava program is given by its meaning as a Java program.The grammar had the formal BNF for MiniJava. It defines a set of productions starting the MainClass which describe how sequences of tokens can form syntactically correct MiniJava programs. This is an LALR(1) grammar. It was not an LL(1) grammar because it had left-recursion. First, we simplified and removed the left-recursion in the grammar.The used grammar became :
   
-![ScreenShot](Grammar1.jpg)
+![ScreenShot]("https://raw.githubusercontent.com/NuhaKhaled/Diversified-MiniJava/master/images/Grammer%202.png")
